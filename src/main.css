@@ -1,0 +1,36 @@
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0px;
+  font-family: system-ui, sans-serif;
+  transition: all 0.25s cubic-bezier(
+    0.445, 0.05, 0.55, 0.95);
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+/* elm-toastui-editor */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #f7f7f7 #f9f9f9;
+}
+
+/* Chrome, Edge, and Safari */
+/* elm-toastui-editor  */
+*::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* elm-toastui-editor  */
+*::-webkit-scrollbar-track {
+  background: #fafafaf5;
+}
+
+/* elm-toastui-editor  */
+*::-webkit-scrollbar-thumb {
+  background-color: #b6b6b63a;
+  border-radius: 0px;
+  border:   0px solid #ffffff37;
+}
+

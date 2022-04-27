@@ -1,0 +1,26 @@
+{
+  "name": "elm-toast-ui",
+  "author": "Aaron Rhodes",
+  "description": "Elm bindings for toast UI",
+  "version": "0.0.1",
+  "license": "??",
+  "scripts": {
+    "postinstall": "elm-tooling install",
+    "dev": "vite",
+    "prebuild": "elm-tooling install",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "elm-test-rs"
+  },
+  "devDependencies": {
+    "elm-tooling": "^1.7.0",
+    "vite": "^2.8.6",
+    "vite-plugin-elm": "^2.5.1"
+  },
+  "dependencies": {
+    "@toast-ui/editor": "^3.1.3",
+    "@toast-ui/editor-plugin-code-syntax-highlight": "^3.0.0",
+    "@toast-ui/editor-plugin-table-merged-cell": "^3.0.2",
+    "prismjs": "^1.27.0"
+  }
+}
