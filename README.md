@@ -9,3 +9,4 @@ Running:
 
 `npm run dev`
 
+![Elm ToastUI Editor](screenshot.png "TOAST UI Editor Elm Wrapper")
